@@ -72,3 +72,47 @@ p {
     right: 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* Section: What We Do */
+#what .items {
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+/* Section: Who We Are */
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1;
+    flex-basis: 50%;
+}
+
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+/* Section: Clients */
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 65%;
+}
