@@ -47,3 +47,28 @@ p {
     background: #93cb52;
     border-radius: 5px;
 }
+
+/* Showcase */
+#showcase {
+    background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+    position: relative;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* Overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
