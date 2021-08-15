@@ -236,6 +236,10 @@ p {
     flex: 1;
 }
 
+#contact .map {
+    flex: 2;
+}
+
 #contact .contact-form .form-grp {
     margin: 0.78rem;
 }
