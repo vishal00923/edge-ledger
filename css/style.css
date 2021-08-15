@@ -19,6 +19,116 @@ p {
     margin: 0.75rem 0;
 }
 
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: #93cb52;
+}
+
+.text-secondary {
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #f4f4f4;
+}
+
+.bg-primary {
+    background: #93cb52;
+    color: #fff;
+}
+
+.nav-logo {
+    cursor: pointer;
+}
+
+.lrg-heading {
+    font-size: 4rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+}
+
+.med-heading {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.2;
+}
+
+/* Vertical Padding Adjustments*/
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+/* Padding Adjustments*/
+.pad-1 {
+    padding: 1.5rem;
+}
+
+.pad-2 {
+    padding: 2rem;
+}
+
+.pad-3 {
+    padding: 3rem;
+}
+
+.lead {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #7ab436;
+}
+
+.btn-dark {
+    background: #333;
+    color: #fff;
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+
 /* Navbar */
 #navbar {
     display: flex;
