@@ -226,3 +226,26 @@ p {
     margin: auto;
     width: 65%;
 }
+
+/* Section Contact*/
+#contact {
+    display: flex;
+}
+
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-grp {
+    margin: 0.78rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.6rem;
+}
