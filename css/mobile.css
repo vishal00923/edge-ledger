@@ -32,6 +32,10 @@
         padding: 0.7rem;
     }
 
+    #showcase .showcase-content {
+        top: 110px;
+    }
+
     #who {
         display: block;
     }
