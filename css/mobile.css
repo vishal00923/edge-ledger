@@ -3,20 +3,20 @@
     padding: 0.9rem;
 }
 
-/* Align items to left */
+/*=========================== Align items to left ================================*/
 #what .items .item {
     display: flex;
     text-align: left;
 }
 
-/* Position Icon */
+/*============================ Position Icon ====================================*/
 #what .items .item i {
     margin-right: 1.2rem;
     align-self: center;
     margin-bottom: 0;
 }
 
-/* Smartphones */
+/*=========================== Smartphones ========================================*/
 @media (max-width: 500px) {
     #navbar {
         flex-direction: column;
@@ -33,7 +33,7 @@
     }
 
     #showcase .showcase-content {
-        top: 110px;
+        top: 0;
     }
 
     #who {
