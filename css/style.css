@@ -1,3 +1,4 @@
+/*===================================== Google Font ===========================*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -19,7 +20,7 @@ p {
     margin: 0.75rem 0;
 }
 
-/* Utility Classes */
+/*==================================== Utility Classes ==========================*/
 .container {
     max-width: 1100px;
     margin: auto;
@@ -70,7 +71,7 @@ p {
     line-height: 1.2;
 }
 
-/* Vertical Padding Adjustments*/
+/*====================================== Vertical Padding Adjustments =====================*/
 .py-1 {
     padding: 1.5rem 0;
 }
@@ -83,7 +84,7 @@ p {
     padding: 3rem 0;
 }
 
-/* Padding Adjustments*/
+/*======================================== Padding Adjustments ============================*/
 .pad-1 {
     padding: 1.5rem;
 }
@@ -129,7 +130,7 @@ p {
     border-bottom: #444 dotted 1px;
 }
 
-/* Navbar */
+/*================================= Navbar ===========================================*/
 #navbar {
     display: flex;
     position: sticky;
@@ -158,7 +159,7 @@ p {
     border-radius: 5px;
 }
 
-/* Showcase */
+/*=================================== Showcase ======================================*/
 #showcase {
     background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
     position: relative;
@@ -174,6 +175,7 @@ p {
     align-items: center;
     height: 100%;
     padding: 0 2rem;
+
     /* Overlay */
     position: absolute;
     top: 0;
@@ -183,7 +185,7 @@ p {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Section: What We Do */
+/*================================= Section: What We Do ==================================*/
 #what .items {
     display: flex;
     padding: 1rem;
@@ -202,7 +204,7 @@ p {
     margin-bottom: 1.2rem;
 }
 
-/* Section: Who We Are */
+/*================================= Section: Who We Are ===================================*/
 #who {
     display: flex;
 }
@@ -216,7 +218,7 @@ p {
     background: url('../img/people.jpg') no-repeat center center/cover;
 }
 
-/* Section: Clients */
+/*=============================== Section: Clients ========================================*/
 #clients .items {
     display: flex;
 }
@@ -227,7 +229,7 @@ p {
     width: 65%;
 }
 
-/* Section Contact*/
+/*=============================== Section Contact =========================================*/
 #contact {
     display: flex;
 }
