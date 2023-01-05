@@ -1,12 +1,12 @@
 # Created Using
 
--   ### `html`
--   ### `css`
--   ### `javascript`
+- ### `html`
+- ### `css`
+- ### `javascript`
 
 ## Edge-Ledger Website
 
-<img src="website-preview.png" width="60%" height="60%" />
+<img src="https://i.ibb.co/yQCSHSq/Screenshot-2023-01-05-224212.png" alt="Preview" border="0">
 
 ## Try It
 
